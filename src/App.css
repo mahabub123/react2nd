@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+/* NavBar Ul Bottom Content */
+#navBottomContent1{
+  content: "";
+  width: 50px;
+  height: 2px;
+  top: 45px;
+  display: flex;
+  position: absolute;
+  background-color: #8c00ffed;
+  transition: 0.3s;
+}
+#navBottomContent2{
+  content: "";
+  width: 70px;
+  height: 2px;
+  top: 45px;
+  display: flex;
+  position: absolute;
+  background-color: #c5c5c5;
+  transition: 0.3s;
+}
+#navBottomContent3{
+  content: "";
+  width: 100px;
+  height: 2px;
+  top: 45px;
+  display: flex;
+  position: absolute;
+  background-color: #c5c5c5;
+  transition: 0.3s;
+}
+#navBottomContent4{
+  content: "";
+  width: 50px;
+  height: 2px;
+  top: 45px;
+  display: flex;
+  position: absolute;
+  background-color: #c5c5c5;
+  transition: 0.3s;
+}
+#navBottomContent5{
+  content: "";
+  width: 55px;
+  height: 2px;
+  top: 45px;
+  display: flex;
+  position: absolute;
+  background-color: #c5c5c5;
+  transition: 0.3s;
+}
+/* NavBar Ul Bottom Text */
+#contentHoverEffect1{
+  transition: 0.3s;
+  color: #8c00ffed;
+  margin-right: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+#contentHoverEffect2{
+  transition: 0.3s;
+  margin-right: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+#contentHoverEffect3{
+  transition: 0.3s;
+  margin-right: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+#contentHoverEffect4{
+  transition: 0.3s;
+  margin-right: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+#contentHoverEffect5{
+  transition: 0.3s;
+  margin-right: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* NavBar Ul Bottom Content Hover Effect*/
+/* 1 */
+#contentHoverEffect1:hover{
+  color: #CF0404;
+}
+#contentHoverEffect1:hover #navBottomContent1{
+  background-color: #CF0404;
+}
+/* 2 */
+#contentHoverEffect2:hover{
+  color: #CF0404;
+}
+#contentHoverEffect2:hover #navBottomContent2{
+  background-color: #CF0404;
+}
+/* 3 */
+#contentHoverEffect3:hover{
+  color: #CF0404;
+}
+#contentHoverEffect3:hover #navBottomContent3{
+  background-color: #CF0404;
+}
+/* 4 */
+#contentHoverEffect4:hover{
+  color: #CF0404;
+}
+#contentHoverEffect4:hover #navBottomContent4{
+  background-color: #CF0404;
+}
+/* 5 */
+#contentHoverEffect5:hover{
+  color: #CF0404;
+}
+#contentHoverEffect5:hover #navBottomContent5{
+  background-color: #CF0404;
+}
+
+#returnBotton{
+  
+}
